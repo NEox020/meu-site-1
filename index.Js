@@ -21,7 +21,7 @@ namespace ResumidorWeb.Controllers
         [HttpPost]
         public IActionResult ResumirPdf()
         {
-            var pdfPath = "caminho_para_seu_arquivo.pdf";
+            var pdfPath = "segurança da informaçao.pdf";
             var extractedText = ExtractTextFromPDF(pdfPath);
 
             var numSentences = 5;
